@@ -25,18 +25,18 @@ header {
 main .container {
     background-color: white;
     width: 70%;
-    height: 500px;
     margin: auto;
     margin-top: 50px;
     padding-left: 15px;
     padding-top: 10px;
+    padding-bottom: 40px;
 }
 
 .container input {
     width: 90px;
     height: 30px;
     border-radius: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-weight: bold;
     border-color: lightgray;
     cursor: pointer;
@@ -58,11 +58,18 @@ input[value="Add Section"] {
     color: lightgray;
 }
 
+.task-container {
+    margin-top: 30px;
+}
+
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 33px;
-    margin-bottom: 10px;
+}
+
+section {
+    margin-top: 50px;
 }
 
 .container h2::before {
@@ -70,17 +77,25 @@ h2 {
 
 }
 
-.checkmark {
+.icon {
     border-radius: 50%;
-    border: 1px solid green;
     width: 20px;
     height: 20px;
-    color: green;
     padding: 3px;
     font-weight: bolder;
     font-size: 15px;
     text-align: center;
     margin-right: 10px;
+}
+
+.icon.checkmark {
+    color: green;
+    border: 1px solid green;
+}
+
+.icon.crossmark {
+    color: red;
+    border: 1px solid red;
 }
 
 .text {
@@ -96,4 +111,24 @@ h2 {
 
 .plate.editorial {
     background-color: #47ADF1;
+}
+
+.plate.q1-goals {
+    background-color: #9C72E4;
+}
+
+.plate.recruiting {
+    background-color: #64C0A9;
+}
+
+.plate.mobile {
+    background-color: #F29E33;
+}
+
+.plate.website {
+    background-color: #D863A1;
+}
+
+.plate.sales {
+    background-color: #B0C926;
 }
