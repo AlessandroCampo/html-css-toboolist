@@ -10,12 +10,19 @@ html {
 
 .logo h1 {
     display: inline;
-    font-size: 60px;
-    font-weight: 900;
+    font-size: 50px;
+    font-weight: 800;
+    vertical-align: middle;
+}
+
+.logo img {
+    vertical-align: middle;
+    width: 70px;
 }
 
 .logo {
     margin-left: 30px;
+    padding-top: 10px;
 }
 
 body {
@@ -29,6 +36,7 @@ hr {
 
 header {
     background-color: white;
+    height: 90px;
 }
 
 .container {
